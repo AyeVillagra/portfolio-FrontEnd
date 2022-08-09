@@ -1,23 +1,27 @@
 <!doctype html>
 <html>
-<head>
-<link rel="stylesheet" src="style.css">
+<head> <!-- información extra/metadatos de la página-->
+<link rel="stylesheet" href="style.css">
+<script src="index.js"></script>
 <meta charset="utf-8" />
 <title> Mi Portfolio </title>
 </head>
-<body>
+<body> <!-- acá va todo lo que queremos que se renderice-->
 
-<header>
-    <div class="caja">
-        <img src="../images/header.jpg" alt="" width="600px" height="150px" >
-    <div class="texto1">Este es mi perfil profesional</div>
-</div>
+<header>    
+    <img id="img-titulo" src="../images/header.jpg"> <!-- id cuando es un elemento único-->
+    <div class="texto1">Este es mi perfil profesional</div> <!-- class cuando tengo varios elementos a los que le quiero aplicar el mismo estilo-->
 </header>
 
 
 <p>Hola, soy Ayelen Villagra. Licenciada en Criminalística y estudiante de Programación.</p>
 <p> En este espacio comparto mis proyectos, mis intereses y medios de contacto.</p>
+<button id="boton">Click me!</button>
+
+<script src="index.js"></script>
 </body>
+
+
 
 <nav class="menu">
     <ul>
@@ -25,10 +29,10 @@
       <li><a href="#">Mis proyectos</a></li>
       <li><a href="#">Contacto</a></li>
     </ul>
-  </nav>
+</nav>
 
-  <footer>
+<footer>
     Copyright © 2022, Ayelen Villagra
     <p>Rosario, Santa Fe, Argentina.</p>
-    </footer>
+  </footer>
 </html>

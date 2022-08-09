@@ -1,6 +1,8 @@
-.caja {
+#img-titulo { /* Comentario */
     position: relative;
     display: inline-block;
+    width: 100%; /*!important esta es una kw que pisa todos los selectores, es de emergencia*/
+    border-radius: 22px;
   }
 
 .texto1{
@@ -10,4 +12,27 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 22px;
     color: blue;
+  }
+
+  .menu{
+    position: relative;
+  }
+  
+  li img{ /* para todas las imágenes dentro de una lista */
+    border: 1px solid black;
+  }
+
+  img:hover{ /* lo que sucede cuando paso el mouse sobre la img */
+    background-color: yellowgreen;
+  }
+
+  button{
+    position: fixed;
+    top: 25;
+    left: 25%;
+    width: 500px;
+    height: 100px;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "Helvetica Neue",Helvetica;
   }
