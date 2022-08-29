@@ -8,28 +8,31 @@
 </head>
 <body> <!-- acá va todo lo que queremos que se renderice-->
 
-<header>    
-    <img id="img-titulo" src="../images/header.jpg"> <!-- id cuando es un elemento único-->
-    <div class="texto1">Este es mi perfil profesional</div> <!-- class cuando tengo varios elementos a los que le quiero aplicar el mismo estilo-->
-</header>
+<div id="header">
+  <h1>Este es mi perfil profesional</h1>
+  <img src="./../assets/images/perfil.jpg">
+</div>
 
+<div id="container">
+  
+  <div id="texto">
+    <h3>
+      Hola, soy Ayelen Villagra. Licenciada en Criminalística y estudiante de Programación. <br>
+      En este espacio comparto mis proyectos, mis intereses y medios de contacto.
+    </h3>
+  </div>
 
-<p>Hola, soy Ayelen Villagra. Licenciada en Criminalística y estudiante de Programación.</p>
-<p> En este espacio comparto mis proyectos, mis intereses y medios de contacto.</p>
-<button id="boton">Click me!</button>
+  <div id="menu">
+    <button>Mi perfil</button>
+    <button>Mis proyectos</button>
+    <button>Contacto</button>
+    
+  </div>
+  
+</div>
 
 <script src="index.js"></script>
 </body>
-
-
-
-<nav class="menu">
-    <ul>
-      <li><a href="#">Mi perfil</a></li>
-      <li><a href="#">Mis proyectos</a></li>
-      <li><a href="#">Contacto</a></li>
-    </ul>
-</nav>
 
 <footer>
     Copyright © 2022, Ayelen Villagra

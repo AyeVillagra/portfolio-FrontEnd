@@ -1,38 +1,69 @@
-#img-titulo { /* Comentario */
-    position: relative;
-    display: inline-block;
-    width: 100%; /*!important esta es una kw que pisa todos los selectores, es de emergencia*/
-    border-radius: 22px;
-  }
-
-.texto1{
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 22px;
-    color: blue;
-  }
-
-  .menu{
-    position: relative;
-  }
+#header{
+  height: 80px;
+  display: flex;
+  background-color: purple;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-inline-start: 50px;
+  padding-bottom: 20px;
+  border-radius: 10px;   } 
   
-  li img{ /* para todas las imágenes dentro de una lista */
-    border: 1px solid black;
+  h1{
+      color:beige;
+      font-family: Verdana, sans-serif;
+      }
+      
+  img{
+    width:100px;
+    height:100px;
+    border-radius:150px;
+              
   }
 
-  img:hover{ /* lo que sucede cuando paso el mouse sobre la img */
-    background-color: yellowgreen;
-  }
 
-  button{
-    position: fixed;
-    top: 25;
-    left: 25%;
-    width: 500px;
-    height: 100px;
-    font-size: 3rem;
-    font-weight: bold;
-    font-family: "Helvetica Neue",Helvetica;
-  }
+
+#container{
+  background-color: teal;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 10px;}
+
+
+  #menu{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;        
+      gap: 21px;
+      padding-right: 20px;        
+}
+
+  button{       
+      background-color: purple;
+      width: 256px;
+      height: 59px;
+      font-weight: bold;
+      font-family: Verdana, sans-serif;
+      color: BEIGE;        
+      border-radius: 10px;
+      border-color: #FFF5E1;
+     
+}
+  button:hover {
+  background-color: #FFF5E1;
+  transition: 0.7s;
+}
+
+  #texto{
+      display:flex;
+      flex-direction: column;    
+      justify-content: center; 
+      text-align: center;
+      padding-left: 100px
+      }
+  h3{
+      color: #FFF5E1;
+      font-family: Georgia, serif;
+      font-size: 30px;
+  }   
